@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="请打开这个网站：">
-    <title>请打开这个网站：</title>
+    <meta name="description" content="正在打开 ZZLM 网站。">
+    <meta http-equiv="refresh" content="0; url=https://zzlm.my/">
+    <title>正在打开 ZZLM</title>
+    <script>
+      window.location.replace("https://zzlm.my/");
+    </script>
     <style>
       :root { color-scheme: light; }
       * { box-sizing: border-box; }
@@ -26,9 +30,16 @@
         line-height: 1.6;
         overflow-wrap: anywhere;
       }
+      main { text-align: center; }
+      p { margin: 20px 0 0; font-size: 18px; line-height: 1.6; }
+      a { color: #185abc; text-underline-offset: 4px; }
+      a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
     </style>
   </head>
   <body>
-    <main><h1>请打开这个网站：</h1></main>
+    <main>
+      <h1>正在打开 ZZLM…</h1>
+      <p><a href="https://zzlm.my/" rel="noreferrer">点击打开 ZZLM 网站</a></p>
+    </main>
   </body>
 </html>
